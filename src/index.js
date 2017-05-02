@@ -2,7 +2,7 @@
 // import 'isomorphic-fetch';
 import { h, render } from 'preact';
 import './style';
-
+import 'preact-material-components/style.css';
 let root;
 function init() {
 	let App = require('./components/app').default;
